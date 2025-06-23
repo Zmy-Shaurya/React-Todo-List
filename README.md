@@ -56,7 +56,7 @@ npm run dev
 ```
 ---
 
-🚧 Possible Improvements I might consider in the future:-
+## 🚧 Possible Improvements I might consider in the future:-
 
 - Persist tasks using localStorage
 - Add edit task feature
@@ -69,5 +69,6 @@ npm run dev
 
 ---
 
-📸 Screenshot:
+## 📸 Screenshot:
+
 ![Todo App Screenshot](src/screenshots/image.png)
