@@ -1,12 +1,56 @@
-# React + Vite
+# 📝 React To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, clean, and functional To-Do List built with **React + Vite** — created as part of my React learning journey.
 
-Currently, two official plugins are available:
+This project helped me understand and practice key React concepts including state management, component communication, list rendering, and controlled form inputs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new tasks  
+- Mark tasks as complete / incomplete  
+- Delete tasks  
+- Controlled input field  
+- State-driven rendering  
+- Separated components (`App.jsx`, `TodoItem.jsx`)  
+- Responsive and minimal UI
+
+---
+
+## 🎓 What I Learned
+
+This app was built to explore and practice:
+
+- React `useState` hook  
+- Controlled components (`onChange` and `value` for inputs)  
+- Updating lists in React using spread syntax  
+- Immutable state updates with `.map()` and `.filter()`  
+- Component-based architecture  
+- Prop passing between parent and child components  
+- Basic CSS styling in React apps  
+
+---
+
+## 🛠️ Tech Stack
+
+- React (with Vite)  
+- JavaScript (ES6+)  
+- CSS
+
+---
+
+## 💻 Getting Started
+
+To run this app locally:
+
+```bash
+# Clone the repo
+git clone <your-repo-url>
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
