@@ -1,3 +1,5 @@
+import "./TodoItem.css";
+
 function TodoItem({ task, index, onDelete, onToggle }) {
     return (
         <li
@@ -12,7 +14,7 @@ function TodoItem({ task, index, onDelete, onToggle }) {
                 onChange={() => onToggle(index)}
             />
             {task.text}{" "}
-            <button onClick={() => onDelete(index)}>❌</button>
+            <button id="deletebutton" onClick={() => onDelete(index)}>❌</button>
         </li>
     );
 }

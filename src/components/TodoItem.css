@@ -1,0 +1,11 @@
+#deletebutton {
+    background-color: white;
+    padding: 0;
+    border-color: rgb(255, 0, 0);
+    margin-left: 5px;
+}
+#deletebutton:hover{
+    background-color: rgb(245, 171, 171);
+    transform:scale(1.1)
+    
+}
