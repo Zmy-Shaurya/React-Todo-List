@@ -46,7 +46,7 @@ To run this app locally:
 
 ```bash
 # Clone the repo
-git clone <your-repo-url>
+git clone https://github.com/Zmy-Shaurya/React-Todo-List.git
 
 # Install dependencies
 npm install
@@ -54,3 +54,20 @@ npm install
 # Start the dev server
 npm run dev
 ```
+---
+
+🚧 Possible Improvements I might consider in the future:-
+
+- Persist tasks using localStorage
+- Add edit task feature
+- Add filter (All / Active / Completed)
+- Clear completed tasks
+- Save creation date for each task
+- Add priority level for tasks
+- Dark mode
+- Better animations and UI polish
+
+---
+
+📸 Screenshot:
+![Todo App Screenshot](src/screenshots/image.png)
